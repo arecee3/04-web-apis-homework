@@ -1,6 +1,5 @@
-{
+* {
 box-sizing: border-box;
-}
 }
 
 body {
@@ -12,10 +11,10 @@ body {
     background-color: #a14c4c;
 }
 
-h2 {
+.h2 {
     text-align: center;
 }
-button {
+.button {
     background-color: coral;
     color: #141313;
     cursor: pointer;
@@ -24,32 +23,32 @@ button {
     margin-left: 45%;
 }
 
-header {
+.header {
     background-color: khaki;
     color: #050314;  
 }
 
-nav {
+.nav {
     margin-right: 20px;
     float: right;
     font-size: 20;
 }
 
-ul {
+.ul {
     list-style-type: none;
 }
 
-li {
+.li {
     display: inline-block;
     margin-left: 25px;
 }
 
-nav a {
+.nav a {
     color: #3b0de0;
     text-decoration: none;
 }
 
-p {
+.p {
   text-align: center; 
   text-emphasis-style: bold; 
 }
