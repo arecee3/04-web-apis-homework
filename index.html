@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <title>Code Quiz</title>
+        </head>  
+
+<body>
+    <header>
+        
+        <h1>Code Quiz</h1>
+    <nav>
+<ul>
+<li>
+<a href=  "./scores.html" class="scores">Current Scores</a>
+</li>
+<li> <div class= "timer" id="timer">Time Left</div>
+</li>
+</ul>
+</nav>
+    </header>
+    <main>
+<div class = "visible" id = "start-game">
+<h2>Begin the Coding Quiz</h2>
+<p>Please answer as many questions you can before the time runs out. Beware an incorrect answer will cause you to lose some time.</p>
+<button class="button" id="start-button">Start Quiz</button>
+</div>
+<div class="hidden" id="questionsplace">
+    <h2 id="questions"></h2>
+<div id="answer-buttons"></div>
+</div>
+<div class="hidden" id="end-screen">
+    <h2>Quiz Completed! </h2>
+    <p id="yourScore">Your Score</p>
+    <p>Please enter your first name below!</p>
+    <button id="submittedName">Submit</button>
+    <input type="text" id="playerName">
+
+</div>
+<script src="./script.js"></script>
+    </main>
+</body>
+</html>
