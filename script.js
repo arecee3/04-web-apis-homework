@@ -2,7 +2,7 @@ var startEL = document.querySelector('#start-game');
 var questionList = document.querySelector('#questionsplace');
 var startButton = document.getElementById('start-button');
 var timer = document.getElementById("timer");
-var timeLeft = 10;
+var timeLeft = 60;
  var timerInterval;
  var hasgameStarted = false;
  var questionElement = document.querySelector('#questionsplace');
